@@ -13,11 +13,6 @@ api_key = os.environ.get("GEMINI_API_KEY")
 import google.generativeai as genai
 
 
-#EXPORT G_API_KEY="AIzaSyBQmEldQBkdJ9QDszc-NdFYvl_3VGAEsjs"
-
-genai.configure(api_key="AIzaSyBQmEldQBkdJ9QDszc-NdFYvl_3VGAEsjs")
-
-
 #model = genai.GenerativeModel("gemini-1.5-flash")
 #response = model.generate_content("Write a short story about a magic backpack.")
 #print(response.text)
