@@ -8,6 +8,7 @@ from esql_utils import gen_token
 import pyperclip
 import shutil
 
+#c8dd620e94045298943ccf83604982
 load_dotenv()
 AZURE_ENDPOINT = os.getenv("AZURE_ENDPOINT")
 token = gen_token()
