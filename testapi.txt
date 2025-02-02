@@ -8,7 +8,9 @@ from langchain.schema import SystemMessage, HumanMessage
 import json
 
 # Load API key
-G_API_KEY="AIzaSyBQmEldQBkdJ9QDszc-NdFYvl_3VGAEsjs"
+G_API_KEY= "your key"
+#A..js
+#sp_var = "IzaSyBQmEldQBkdJ9QDszc-NdFYvl_3VGAEs"
 genai.configure(api_key=G_API_KEY)  
 model = genai.GenerativeModel("gemini-1.5-flash")
 
